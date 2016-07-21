@@ -1,5 +1,5 @@
 var electron = require('electron')  // this should work if you're in the electron environment
-var app = electron.remote.app
+var app = electron.app
 var shell = electron.shell
 
 module.exports = function() {
